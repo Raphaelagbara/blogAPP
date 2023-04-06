@@ -1,10 +1,35 @@
 {
   "dependencies": {
     "bcrypt": "^5.1.0",
+    "config": "^3.3.9",
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
     "mongoose": "^7.0.3",
-    "multer": "^1.4.5-lts.1"
-  }
+    "multer": "^1.4.5-lts.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "name": "blogapp",
+  "version": "1.0.0",
+  "description": "fullstack blog app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raphaelagbara/blogAPP.git"
+  },
+  "author": "Raphael Agbara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raphaelagbara/blogAPP/issues"
+  },
+  "homepage": "https://github.com/Raphaelagbara/blogAPP#readme"
 }
